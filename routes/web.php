@@ -117,8 +117,8 @@ Route::get('admin/update_playlist', function () {
 
 
 
-Route::get('admin/view_teacher', function () {
-    return view('admin/view_teacher');
+Route::get('admin/delete_teacher', function () {
+    return view('admin/delete_teacher');
 })->name('delete_teacher');
 
 Route::get('admin/delete_courses', function () {
