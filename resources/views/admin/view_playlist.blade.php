@@ -10,47 +10,7 @@
 <body>
     <div class="d-flex">
         <!-- Sidebar -->
-        <nav class="bg-light p-3" style="width: 250px; height: 100vh;">
-            <h4 class="text-center">Admin Panel</h4>
-            <ul class="nav flex-column mt-4">
-                <li class="nav-item mb-2 dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teachers</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">View All</a></li>
-                        <li><a href="#" class="dropdown-item">Add New</a></li>
-                        <li><a href="#" class="dropdown-item">Edit</a></li>
-                        <li><a href="#" class="dropdown-item">Delete</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item mb-2 dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">View All</a></li>
-                        <li><a href="#" class="dropdown-item">Add New</a></li>
-                        <li><a href="#" class="dropdown-item">Edit</a></li>
-                        <li><a href="#" class="dropdown-item">Delete</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item mb-2 dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Playlists</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">View All</a></li>
-                        <li><a href="#" class="dropdown-item">Add New</a></li>
-                        <li><a href="#" class="dropdown-item">Edit</a></li>
-                        <li><a href="#" class="dropdown-item">Delete</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item mb-2 dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Users</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">View All</a></li>
-                        <li><a href="#" class="dropdown-item">Add New</a></li>
-                        <li><a href="#" class="dropdown-item">Edit</a></li>
-                        <li><a href="#" class="dropdown-item">Delete</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        @include('components.sidebar')
 
         <!-- Main Content -->
         <div class="flex-grow-1 p-4">

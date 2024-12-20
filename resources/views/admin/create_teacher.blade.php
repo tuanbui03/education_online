@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    @include('components.sidebar')
     <div class="container mt-5">
         <h1 class="text-center mb-4">Create Teacher</h1>
         <form action="#" method="POST">
